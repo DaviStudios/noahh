@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noahh - Home</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="top">
+        <a class="noahh">Noahh</a>
+        <nav>
+            <a id="selected" class="topentry">Home</a>
+            <a href="about.html" class="topentry">About</a>
+            <a href="fanart.html" class="topentry">Fanart</a>
+            <a href="events.html" style="margin-right: 30px;" class="topentry">Events</a>
+        </nav>
+    </header>
+    <hr>
+    <img src="resources/stairs.png" id="photo" alt="Stairs Image">
+    <section id="socials">
+        <h1>Noahh</h1>
+        <img onclick="move('open.spotify.com/artist/1Vk8Xbn8TTDtYlCOEanuc8')" class="socialicon" src="resources/spotify.png">
+        <img onclick="move('www.youtube.com/@0noahh')" class="socialicon" src="resources/youtube.png">
+        <img onclick="move('www.instagram.com/0noahh')" class="socialicon" src="resources/insta.png">
+    </section>
+    <section id="latest">
+        <h2>Soulmate</h2>
+        <ul>
+            <li class="green">
+                <img onclick="move('open.spotify.com/track/18DHwzsDfj5chDKqXzYbig')" class="platformicon" style="width: 8%;" src="resources/spotify.png"><a style="font-size: 150%;" onclick="move('open.spotify.com/track/18DHwzsDfj5chDKqXzYbig')">Spotify</a>
+                <p></p>
+                <img onclick="move('soundcloud.com/0noahh/soulmate-juku-auvy-plugp-dthd')" class="platformicon" style="width: 8%;" src="resources/soundcloud.png"><a style="font-size: 150%;" onclick="move('soundcloud.com/0noahh/soulmate-juku-auvy-plugp-dthd')">Soundcloud</a>
+            </li>
+        </ul>
+    </section>
+    <iframe id="dc" src="https://discord.com/widget?id=1260920342184984607&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    <section id="trending">
+        <h2>Popular Releases</h2>
+        <ul>
+            <li class="green">
+                <img onclick="move('open.spotify.com/track/46z65d2xnaThsTWn0kb919')" class="platformicon" src="resources/spotify.png"><a onclick="move('open.spotify.com/track/46z65d2xnaThsTWn0kb919')">Deep in Love</a>
+            </li>
+            <li class="green">
+                <img onclick="move('open.spotify.com/track/3hm66nsdSsv2hi2f9RQf0N')" class="platformicon" src="resources/spotify.png"><a onclick="move('open.spotify.com/track/3hm66nsdSsv2hi2f9RQf0N')">Reason</a>
+            </li>
+            <li class="green">
+                <img onclick="move('open.spotify.com/track/5UnGT6GCTYhk6CSeUycydG')" class="platformicon" src="resources/spotify.png"><a onclick="move('open.spotify.com/track/5UnGT6GCTYhk6CSeUycydG')">Reason</a>
+            </li>
+        </ul>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

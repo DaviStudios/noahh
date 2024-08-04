@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noahh - Home</title>
+    <link rel="stylesheet" href="fanart.css">
+</head>
+<body>
+    <header id="top">
+        <a class="noahh">Noahh</a>
+        <nav>
+            <a href="index.html" class="topentry">Home</a>
+            <a href="about.html" class="topentry">About</a>
+            <a id="selected" class="topentry">Fanart</a>
+            <a href="events.html" style="margin-right: 30px;" class="topentry">Events</a>
+        </nav>
+    </header>
+    <section>
+        <input type="text" class="inp" id="author" placeholder="Author name...">
+        <a style="color: red; font-size: 12px;">*150x150 pixels required</a>
+        <label class="flabel" for="file">
+            <input type="file" id="file" placeholder="File">
+        </label>
+        <button onclick="submit()" class="inp">Submit</button>
+    </section>
+    <h3>-Fanart-</h3>
+    <div id="fanart"></div>
+    <script src="fanart.js"></script>
+</body>
+</html>
