@@ -21,13 +21,13 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    gap: 20px;
 }
 
 header .noahh {
     color: #d1ddb7;
     font-size: 200%;
     font-weight: 500;
-    left: 20px;
 }
 
 header nav {
