@@ -19,7 +19,7 @@ header {
 }
 
 header .noahh {
-    color: lime;
+    color: #d1ddb7;
     font-size: 200%;
     font-weight: 500;
 }
@@ -31,7 +31,7 @@ header nav {
 
 .topentry {
     cursor: pointer;
-    color: lime;
+    color: #d1ddb7;
     text-decoration: none;
 }
 
@@ -122,7 +122,6 @@ hr {
 
     #dc {
         width: 250px;
-        height: 400px;
     }
 }
 
@@ -136,7 +135,7 @@ hr {
 
 #about h1 {
     margin-top: 0;
-    color: lime;
+    color: #d1ddb7;
 }
 
 #about p {
